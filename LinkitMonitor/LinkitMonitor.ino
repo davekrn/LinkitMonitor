@@ -22,7 +22,7 @@ Content:Hey this is a test message!
 */
 #include <LGSM.h>
 String initializeBuffer;    // This will store what you enter to start the serial port
-String message = "*** Serial monitor is ready ***";
+String message = "*** serial monitor is ready ***";
 
 void setup() {
 	Serial.begin(9600);
